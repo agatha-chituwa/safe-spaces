@@ -1,0 +1,29 @@
+{
+  "client": {
+    "$userId": {
+      "name": "string",
+      "email": "string",
+      "password": "string"
+      "phoneNumber": "number"
+    }
+  },
+  "cases": {
+    "$caseId": {
+      "client_id": "string",
+      "type": "string",
+      "description": "string",
+      "address": "string"
+    }
+  },
+  "handlers": {
+    "$handlerId": {
+      "name": "string",
+      "description": "string",
+      "type": "string"
+      "address": "string",
+      "phone": "string",
+      "email": "string",
+      "website": "string"
+    }
+  }
+}

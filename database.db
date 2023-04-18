@@ -8,7 +8,7 @@
     
   },
   "client": {
-    "$userId": {
+    "$client_id": {
       "name": "string",
       "email": "string",
       "password": "string"
@@ -22,6 +22,15 @@
       "description": "string",
       "status": 
       "address": "string"
+    }
+  },
+    "admin": {
+    "$adminId": {
+      "name": "string",
+      "email": "string",
+      "password": "string",
+      "phoneNumber": "number",
+      "organization": "string"
     }
   },
   "handlers": {

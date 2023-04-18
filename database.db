@@ -1,4 +1,12 @@
+
+
 {
+
+  "login": {
+      "email": "string",
+      "password": "string"
+    
+  },
   "client": {
     "$userId": {
       "name": "string",
@@ -12,11 +20,13 @@
       "client_id": "string",
       "type": "string",
       "description": "string",
+      "status": 
       "address": "string"
     }
   },
   "handlers": {
     "$handlerId": {
+      "typeOfHandler":"" 
       "name": "string",
       "description": "string",
       "type": "string"

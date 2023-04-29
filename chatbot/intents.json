@@ -1,0 +1,209 @@
+{"intents": [
+    {
+            "tag": "greeting",
+            "patterns": [
+              "Hi there", 
+              "How are you", 
+              "Is anyone there?",
+              "Hey",
+              "Hola", 
+              "Hello", 
+              "Good day",
+              "hey broh",
+              "hi broh",
+              "What's up",
+              "How are you doing"
+            ],
+            "responses": [
+              "Hello, thanks for asking", 
+              "Good to see you again", 
+              "Hi there, how can I help?",
+              "Hi there! What can I do for you today?",
+            "Hey, how can I assist you?",
+            "Hi! What can I help you with?",
+            "Hello, how may I assist you?"
+            ],
+            "context": [""]
+          },
+          {
+            "tag": "goodbye",
+            "patterns": [
+              "Bye", 
+              "See you later", 
+              "Goodbye", 
+              "Nice chatting to you, bye", 
+              "Till next time",
+              "I'm leaving",
+              "Take care"
+            ],
+            "responses": [
+              "See you!", 
+              "Have a nice day", 
+              "Bye! Come back again soon.",
+              "Goodbye! Take care!",
+            "See you soon! Take care!",
+            "Have a nice day!",
+            "Bye for now!",
+            "See you later!"
+            ],
+            "context": [""]
+          },
+          {
+            "tag": "thanks",
+            "patterns": [
+              "Thanks", 
+              "Thank you", 
+              "That's helpful", 
+              "Awesome, thanks", 
+              "Thanks for helping me",
+              "Appreciate it",
+            "Thanks a lot",
+            "Thank you very much"
+            ],
+            "responses": [
+              "Happy to help!", 
+              "Any time!", 
+              "My pleasure",
+              "am glad i help",
+              "You're welcome!",
+            "No problem, happy to help!",
+            "Glad I could assist you!",
+            "Anytime!",
+            "Don't mention it!"
+            ],
+            "context": [""]
+          },
+          {
+            "tag": "help",
+            "patterns": [
+              "Can you help me?",
+              "I need some help",
+              "I don't know what to do",
+              "Can you assist me?",
+              "Can you guide me?"
+            ],
+            "responses": [
+              "Sure, I'm here to help! What's going on?",
+              "Of course, what do you need help with?",
+              "I'm happy to assist you. What can I do?",
+              "Sure thing, tell me what you need help with!",
+              "Absolutely, what's the issue you're facing?"
+            ]
+          },
+          {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+              "Sorry, can't understand you", 
+              "Please give me more info", 
+              "Not sure I understand"
+            ],
+            "context": [""]
+          },
+          {
+            "tag": "options",
+            "patterns": [
+              "How you could help me?", 
+              "What you can do?", 
+              "What help you provide?", 
+              "How you can be helpful?", 
+              "What support is offered"
+            ],
+            "responses": [
+              "I can help you with anything concerning gender-based violence, rape cases, any type of gender-based abuse.", 
+              "Offering support for gender-based violence, relationship abuse, emotional and physical abuse.", 
+              "We're here to support you. Please tell us how we can help."
+            ],
+            "context": [""]
+          },
+          {
+            "tag": "report_abuse",
+            "patterns": [
+              "How can I report gender-based violence?", 
+              "I need to report an abuse", 
+              "How to file a report for gender-based violence?",
+              "I want to report a case of abuse",
+              "Where can I report gender-based violence?"
+            ],
+            "responses": [
+              "You can report gender-based violence to your local authorities, such as the police or a women's shelter. You can also contact a crisis helpline for support and guidance on how to report.",
+              "Reporting gender-based violence can be difficult, but it is an important step towards getting help and support. If you're unsure about how to report, we can help guide you through the process.",
+              "We're here to support you in reporting gender-based violence. Please tell us more about your situation so we can provide guidance on how to proceed."
+            ],
+            "context": ["report_abuse"]
+          },
+          {
+            "tag": "symptoms",
+            "patterns": [
+              "I feel",
+              "I have been feeling",
+              "My body is",
+              "My mind is",
+              "I have been experiencing"
+            ],
+            "responses": [
+              "Can you please tell me more about your symptoms?",
+              "I'm sorry to hear that. Can you explain what you're feeling?",
+              "I'm here to listen. What symptoms are you experiencing?",
+              "I'm here to help. Can you describe your symptoms in more detail?",
+              "I'm sorry you're not feeling well. Can you tell me more about your symptoms?"
+            ]
+          },
+          {
+            "tag": "comfort",
+            "patterns": [
+              "I need someone to talk to", 
+              "I'm feeling down", 
+              "I'm feeling depressed",
+              "I'm scared",
+              "I need emotional support",
+              "Can you comfort me?"
+            ],
+            "responses":[
+                    "I'm here for you, and I believe you.",
+                    "It's not your fault, and you didn't deserve this.",
+                    "You are strong, and you will get through this.",
+                    "I am so sorry this happened to you.",
+                    "You are not alone, and there is help available.",
+                    "You deserve to be safe and treated with respect.",
+                    "You are worthy of love and respect, no matter what has happened.",
+                    "I will support you in whatever way you need.",
+                    "It's okay to feel angry, sad, or scared. Your feelings are valid.",
+                    "You are a survivor, and you are not defined by what happened to you."
+            ] ,
+            "context":["comfort"]      
+         },
+         {
+            "tag": "prevention",
+            "patterns": ["How can I prevent gender based violence?", "What are some preventative measures I can take?", "How to avoid gender based violence?", "What actions can I take to prevent gender based violence?", "What are some safety tips to avoid gender based violence?"],
+            "responses": ["Preventing gender based violence starts with understanding what it is and how it affects people. Some preventative measures include being aware of your surroundings, setting boundaries, and knowing your rights. Here are some resources that can provide more information on how to prevent gender based violence: (provide links to relevant resources)",
+                            "Remember that you are not alone, and there are resources available to help you prevent gender-based violence.",
+                            "Edsucate yourself and others on the signs and effects of gender-based violence.",
+                            "Speak out against gender-based violence and promote healthy relationships and communication.:",
+                            "Trust your instincts and recognize when a situation feels unsafe or unhealthy.",
+                            "Set boundaries and communicate them clearly with others.",
+                            " Take action and get involved in advocacy efforts to prevent gender-based violence in your community.",
+                            " Practice self-care and prioritize your mental and emotional well-being.]"
+         ],
+            "context": ["prevention"]
+          },
+          {
+            "tag": "support",
+            "patterns": ["I need someone to talk to", "Can you provide emotional support?", "I feel depressed and alone", "I am struggling to cope with my experiences", "Can you offer guidance on how to heal from gender based violence?"],
+            "response": ["I'm here to listen and offer support. It's normal to feel overwhelmed or scared after experiencing gender based violence. Remember that it's not your fault and there is help available. Here are some resources that can provide emotional support and guidance on healing from gender based violence: (provide links to relevant resources)",
+            "Remember that you are not alone. You have the right to feel safe and to live free from violence and abuse.",
+            "It takes a lot of strength to speak up about what you have been through. You should be proud of yourself.",
+            "You are not to blame for what happened to you. The person who hurt you is responsible for their actions.",
+            "It's okay to feel overwhelmed or scared. You don't have to deal with this on your own.",
+            "You deserve to be treated with respect and dignity. Nobody has the right to hurt you in any way.",
+            "If you're feeling down, it's important to take care of yourself. Do things that make you happy and bring you comfort.",
+            "Healing takes time, but you will get through this. You are stronger than you think.",
+            "Remember that seeking help is a sign of strength, not weakness. It's okay to ask for help when you need it.",
+            "There is no shame in what you have been through. You are brave for coming forward and sharing your story.",
+            "You have the power to take control of your life and your future. You can overcome this and move forward."
+    ],
+            "context": ["support"]
+          }    
+
+    ] 
+}
